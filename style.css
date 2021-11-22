@@ -1,0 +1,72 @@
+@font-face {
+  font-family: Helvetica;
+  src: url(fonts/HelveticaNeueCyr-Medium.ttf);
+  font-style: normal;
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: Helvetica;
+  src: url(fonts/HelveticaNeueCyr-Roman.ttf);
+  font-style: normal;
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: Helvetica;
+  src: url(fonts/HelveticaNeueCyr-Bold.ttf);
+  font-style: normal;
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: Helvetica;
+  src: url(fonts/HelveticaNeueCyr-Thin.ttf);
+  font-style: normal;
+  font-weight: 400;
+}
+
+* {
+  font-family: "Helvetica", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: black;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  position: absolute;
+  height: 10vh;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 111px;
+  padding-right: 111px;
+
+  background: linear-gradient(
+    180deg,
+    rgba(5, 5, 5, 0.54) 18.75%,
+    rgba(7, 9, 12, 0) 85.42%
+  );
+}
+
+.header__logo {
+  width: 25%;
+}
+
+.header__menu_container {
+  width: 75%;
+}
+
+.header__menu_list {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+}
+
+.section-1 {
+  position: relative;
+}
