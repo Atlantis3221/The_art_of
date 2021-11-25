@@ -30,7 +30,6 @@
   font-family: "Helvetica", sans-serif;
   font-weight: 400;
   font-size: 16px;
-  color: black;
   margin: 0;
   box-sizing: border-box;
 }
@@ -50,14 +49,26 @@
     rgba(5, 5, 5, 0.54) 18.75%,
     rgba(7, 9, 12, 0) 85.42%
   );
+  z-index: 1;
 }
 
 .header__logo {
-  width: 25%;
+  width: 100px;
+  height: 35px;
+  background-color: #939393;
+  color: #525252;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4px;
+  line-height: 19px;
 }
 
 .header__menu_container {
   width: 75%;
+  color: #eaeaea;
+  font-size: 16px;
+  font-weight: 400;
 }
 
 .header__menu_list {
@@ -65,8 +76,108 @@
   display: flex;
   justify-content: space-between;
   list-style: none;
+  padding: 18px;
 }
 
 .section-1 {
+  height: 100vh;
   position: relative;
+  background: url(img/1.png) no-repeat;
+  background-size: 87.3%;
+  z-index: -1;
+  color: white;
+  background-position: 100% 0%;
+}
+
+.section-1_gradient {
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(
+    89.37deg,
+    #000000 15.49%,
+    rgba(0, 0, 0, 0.1) 48.34%
+  );
+  z-index: 0;
+}
+
+.header__menu_opacity {
+  color: rgba(234, 234, 234, 0.6);
+}
+
+.section-1__content {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 111px 111px 111px 111px;
+  height: 100%;
+  width: 100%;
+  z-index: 1;
+}
+
+.section-1__first-string {
+  font-size: 48px;
+  line-height: 54px;
+  opacity: 0.8;
+  margin-bottom: 4px;
+}
+
+.section-1__second-string {
+  font-size: 126px;
+  line-height: 102px;
+  margin-bottom: 60px;
+  font-weight: 500;
+}
+
+.section-1__third-string {
+  font-size: 22px;
+  line-height: 33px;
+  opacity: 0.7;
+}
+
+.section-2 {
+  height: 577px;
+  padding: 111px 111px 111px 111px;
+}
+
+.section-2__caption {
+  font-size: 48px;
+  line-height: 56px;
+  font-weight: 500;
+  margin-bottom: 80px;
+}
+
+.section__list {
+  display: flex;
+  height: 169px;
+  width: 1218px;
+  flex-wrap: wrap;
+}
+
+.section-2__list_style {
+  width: 100%;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+}
+
+.section__list_string {
+  list-style: none;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.section-3 {
+  height: 1101px;
+  padding: 111px 111px 111px 111px;
+}
+
+.section-3__caption {
+  font-size: 48px;
+  line-height: 54px;
+  font-weight: 500;
+  margin-bottom: 55px;
 }
