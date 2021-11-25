@@ -151,7 +151,7 @@
 .section__list {
   display: flex;
   height: 169px;
-  width: 1218px;
+  width: 100%;
   flex-wrap: wrap;
 }
 
