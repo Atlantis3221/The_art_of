@@ -664,3 +664,96 @@ text-decoration: none;
   line-height: 16px;
   color: #b3b3b3;
 }
+
+.footer {
+  padding: 111px 265px 111px 111px;
+  display: flex;
+  justify-content: space-between;
+  background: #f0f0f0;
+  width: 100%;
+  position: relative;
+}
+
+.info__logo {
+  width: 100px;
+  height: 35px;
+  background-color: #dcdcdc;
+  color: #525252;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4px;
+  line-height: 19px;
+  margin-bottom: 34px;
+  margin-right: 286px;
+}
+
+.network__logo {
+  margin-right: 24px;
+}
+
+.footer__menu {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.menu__column {
+  display: flex;
+  flex-direction: column;
+}
+
+.menu__bottom-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.menu__top-column {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 60px;
+}
+
+.column__main-link {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  color: rgba(33, 33, 33, 0.9);
+  margin-bottom: 16px;
+  cursor: pointer;
+}
+
+.column__link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 32px;
+  color: rgba(33, 33, 33, 0.6);
+  cursor: pointer;
+}
+
+.column__projects {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  color: rgba(33, 33, 33, 0.9);
+  margin-bottom: 30px;
+  cursor: pointer;
+}
+
+.column__contacts {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  color: rgba(33, 33, 33, 0.9);
+  margin-bottom: 111px;
+  cursor: pointer;
+}
+
+.footer__years {
+  position: absolute;
+  left: 111px;
+  bottom: 50px;
+  font-size: 14px;
+  line-height: 24px;
+  color: rgba(33, 33, 33, 0.6);
+}
