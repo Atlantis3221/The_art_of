@@ -37,7 +37,6 @@
 
 .header {
   position: absolute;
-  height: 10vh;
   width: 100%;
   display: flex;
   justify-content: space-between;
@@ -713,6 +712,7 @@ text-decoration: none;
   border-bottom: 1px solid #c4c4c4;
   margin-bottom: 30px;
   padding-bottom: 9px;
+  padding-top: 7px;
 }
 
 .item_extra-margin {
@@ -926,6 +926,31 @@ text-decoration: none;
 
   .header {
     padding: 30px;
+    align-items: inherit;
+  }
+
+  .header__menu-list {
+    padding: 0px;
+  }
+
+  .menu-list__list-link {
+    margin: 0px;
+  }
+
+  .section-first__first-string {
+    font-size: 28px;
+    line-height: 32px;
+  }
+
+  .section-first__second-string {
+    font-size: 48px;
+    line-height: 48px;
+    margin-bottom: 20px;
+  }
+
+  .section-first__third-string {
+    font-size: 18px;
+    line-height: 18px;
   }
 
   .section-second__clients {
@@ -1202,4 +1227,75 @@ text-decoration: none;
     padding: 30px;
     flex-direction: column;
   }
+
+  .section-ninth__contact {
+    width: 100%;
+  }
+
+  .section-ninth__contact-info {
+    flex-direction: column;
+  }
+
+  .section-ninth__contact-text {
+    margin-bottom: 25px;
+  }
+
+  .number_wrap {
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 15px;
+  }
+  
+  .country-text {
+    margin: 0px;
+  }
+
+  .contact-mail {
+    margin: 0px;
+    align-items: center;
+    margin-bottom: 15px;
+  }
+
+  .call-us__text {
+    margin: 0px;
+  }
+  
+  .footer {
+    padding: 30px;
+    flex-direction: column;
+  }
+  
+  .footer__info {
+    margin-bottom: 25px;
+  }
+
+  .footer__menu {
+    flex-direction: column;
+  }
+
+  .menu__top-column {
+    margin-bottom: 20px;
+  }
+
+  .menu__bottom-column {
+    margin-bottom: 20px;
+  }
+
+  .column__projects {
+    margin-bottom: 20px;
+  }
+
+  .column__contacts {
+    margin-bottom: 20px;
+  }
+
+  .footer__years {
+    bottom: 30px;
+    left: 30px;
+  }
+
+  .section-first__content {
+    padding: 30px;
+  }
+
 }
