@@ -1244,7 +1244,7 @@ text-decoration: none;
 
   .number_wrap {
     flex-direction: column;
-    align-items: center;
+    align-items: flex-start;
     margin-bottom: 15px;
   }
   
@@ -1299,6 +1299,10 @@ text-decoration: none;
 
   .section-first__content {
     padding: 30px;
+  }
+
+  .section-ninth__form {
+    margin-top: 35px;
   }
 
 }
